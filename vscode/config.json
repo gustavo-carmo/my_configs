@@ -1,0 +1,104 @@
+{
+  // Configura tamanho e família da fonte
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "400", // Regular
+  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+  "editor.rulers": [80, 120],
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "editor.formatOnSave": true,
+  "eslint.packageManager": "yarn",
+  "files.associations": {
+    ".sequelizerc": "javascript"
+  },
+  // Aplica um sinal visual na esquerda da linha selecionada
+  "editor.renderLineHighlight": "gutter",
+  // Aumenta a fonte do terminal
+  "terminal.integrated.fontSize": 16,
+  // Define o tema dos ícones na sidebar
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.tabSize": 2,
+  "extensions.ignoreRecommendations": true,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "breadcrumbs.enabled": true,
+  "git.enableSmartCommit": true,
+  "editor.parameterHints.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  "typescript.tsserver.log": "verbose",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "workbench.activityBar.visible": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "workbench.colorTheme": "Night Wolf (dark gray) (No Italics)",
+  "git.autofetch": true,
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "tsconfig.json": "tune",
+    "*.webpack.js": "webpack",
+    "*.proto": "3d",
+    "ormconfig.json": "database"
+  },
+
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune"
+  },
+  "bracketPairColorizer.depreciation-notice": false,
+  "tabnine.experimentalAutoImports": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.formatOnPaste": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[prisma]": {
+    "editor.formatOnSave": true,
+  },
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
+  },
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.folders.color": "#6272a4",
+}
